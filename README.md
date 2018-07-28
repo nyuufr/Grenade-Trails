@@ -2,9 +2,9 @@
 
 ## Description
 
-The grenades have a colored trail following them. 
+The grenades thrown have a colored trail following them until they detonate. 
 
-The color of the trails depends of the relationship of the players with the grenade owner (Teammate or enemy).
+The color of the trails depends of the relationship of each player with the grenade owner (Teammate or enemy).
 
 ## Console variables
 
