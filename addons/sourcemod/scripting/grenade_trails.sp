@@ -342,7 +342,7 @@ public void OnGrenadeSpawnPostNextFrame(int iGrenadeReference)
         // Get the grenade owner
         int iGrenadeOwner = GetEntPropEnt(iGrenade, Prop_Send, "m_hOwnerEntity");
         
-        // Check if the owner is connected
+        // Check if the owner is in game
         if (1 <= iGrenadeOwner <= MaxClients && gl_bClientInGame[iGrenadeOwner])
         {
             // Create the trail
